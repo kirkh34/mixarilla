@@ -1,0 +1,1937 @@
+@import 'reset.css';
+@import 'text.css';
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+
+
+body {
+background-image:url('../images/small_steps.png');
+background-repeat:repeat;
+margin:0;
+padding:0;
+border:0;
+}
+
+input:focus{
+  border:none;
+  padding:none;
+  margin:none;
+}
+
+
+input::-webkit-input-placeholder {
+	color: #444;
+	text-transform: uppercase;
+}
+input::-moz-placeholder {
+	color: #444;
+	text-transform: uppercase;
+}
+input:-moz-placeholder {   /* Older versions of Firefox */
+	color: #444;
+	text-transform: uppercase;
+}
+input:-ms-input-placeholder { 
+	color: #444;
+	text-transform: uppercase;
+}
+
+#mixtapeContain{
+
+}
+
+
+#youtubeSearchContain{
+  background-color:none;
+
+}
+
+  /* Style overrides for: 0px to 760px */
+
+
+  
+  
+html.range_0 .container_12{
+  width:300px;
+  margin:auto;
+  position:relative;
+  z-index:800;
+
+}
+
+
+
+
+html.range_0 #header{
+  background-color:none;
+  background-image:url("");
+  background-repeat:none;
+  height:75px;
+
+}
+
+html.range_0 #mainMenu{
+  background-color:green;
+  background-image:url("");
+  height:40px;
+
+}
+
+html.range_0 #ytSearchContain {
+  background-color:red;
+  background-image:url("../images/mixtape_range_d.png");
+  height:105px;
+}
+
+html.range_0 #mixtapeContain{
+  background-color:pink;
+  background-image:url("../images/mixtape_range_d.png");
+  height:100px;
+
+}
+
+
+  /****************************************/
+    /****************************************/
+      /****************************************/
+        /****************************************/
+          /****************************************/
+            /****************************************/
+            
+  /* Style overrides for: 760px to 2540px */
+  
+    /****************************************/
+      /****************************************/
+        /****************************************/
+          /****************************************/
+            /****************************************/
+
+
+html.range_1 #headerWrap{
+  background-color:#fff;
+  height:120px;
+  width:100%;
+  position:relative;
+  margin:auto;
+  border-bottom:0px solid #000;
+}
+
+
+html.range_1 #header{
+  background-color:#fff;
+  background-image:url("../images/header_range_1.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  height:120px;
+  width:100%;
+  position:relative;
+  margin:auto;
+
+}
+
+html.range_1 #headlineCreate{
+  background-color:#fff;
+  background-image:url("../images/yt_icon_full_100.png");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-size: contain;
+  margin-top:5px;
+  height:60px;
+  width:375px;
+  position:relative;
+  float:right;
+  overflow:hidden;
+  
+}
+
+
+html.range_1 #headlineCreate p{
+  width:100%;
+  height:auto;
+  margin-top:15px;
+  margin-left:20px;
+  font-size:20px;
+  font-family:headerText;
+  letter-spacing:0.05em;
+  text-shadow: 2px 2px 6px #6b6b6b;
+}
+
+
+html.range_1 #headlineCreate p span{
+  color:#374768;
+}
+
+
+html.range_1 #headlineShare{
+  background-color:#fff;
+  background-image:url("../images/fb_icon_full_60.png");
+  background-repeat:no-repeat;
+  background-position:right;
+  background-color:#fff;
+  background-size:contain;
+  margin-right:25px;
+  height:40px;
+  width:300px;
+  position:relative;
+  float:right;
+  clear:right;
+
+}
+
+
+html.range_1 #headlineShare p{
+  width:100%;
+  height:40px;
+  font-size:20px;
+  font-family:headerText;
+  letter-spacing:0.05em;
+  position:relative;
+  float:right;
+  margin-top:7px;
+  margin-right:15px;
+  text-shadow: 2px 2px 6px #6b6b6b;
+}
+
+
+html.range_1 #headlineShare p span{
+  color:#db2a28;
+}
+
+
+html.range_1 #mainMenuWrap{
+  border-top:#666 solid 1px;
+  border-bottom:#222 solid 1px;
+  height:30px;
+  width:100%;
+  padding:0px;
+  position:relative;
+  margin:auto;
+  z-index:999;
+  
+  background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,149,1)), color-stop(46%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+}
+
+html.range_1 #mainMenu{
+  height:30px;
+  width:960px;
+  padding:0px;
+  position:relative;
+  margin:auto;
+ background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(149,149,149,1)), color-stop(46%,rgba(13,13,13,1)), color-stop(50%,rgba(1,1,1,1)), color-stop(53%,rgba(10,10,10,1)), color-stop(76%,rgba(78,78,78,1)), color-stop(87%,rgba(56,56,56,1)), color-stop(100%,rgba(27,27,27,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */ 
+}
+
+html.range_1 #mainMenu li{
+  width:auto;
+  height:100%;
+  position:relative;
+  float:left;
+  color:#fff;
+  font-family:headerText;
+  letter-spacing:0.1em;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  cursor:pointer;
+}
+
+
+html.range_1 #mainMenu li a{
+  color:#fff;
+  width:auto;
+  height:100%;
+  padding-left:15px;
+  padding-right:15px;
+  text-decoration:none;
+  text-align:center;
+}
+
+html.range_1 #mainMenu li a:hover{
+  color:#db4a49;
+}
+
+
+html.range_1 .container_12{
+  height:auto;
+  background-color:#dedede;
+  padding:0px;
+  border:0px;
+  margin:0px auto;
+  position:relative; 
+-webkit-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.6);
+}   
+
+
+
+html.range_1 #ytContain{
+  background:#fff;
+  width:auto;
+  height:auto;
+  position:relative;
+  padding:0px 5px;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:0px;
+  margin-bottom:0px;
+} 
+
+
+html.range_1 #mixtapeContain{
+  background-image:url("../images/mixtape_range_1.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  height:410px;
+  background-color:none;
+  padding-top:10px;
+  position:relative;
+  margin:auto;
+  
+
+}
+
+
+
+
+
+html.range_1 #ytSearchBoxBtnWrap {
+  width:100%;  
+  height:30px;
+  background:pink;
+  border-left:#999 solid 0px;
+  border-top:#999 solid 0px;
+  border-right:#999 solid 0px;
+  border-bottom:#999 solid 0px;  
+  position:relative;
+  margin:10px auto 0px auto;
+  float:left;
+}
+
+html.range_1 #ytOrderedWrap {
+  width:210px;
+  height:auto;
+  padding:0px;
+  background:;
+  position:absolute;
+  top:44px;
+  left:8px;
+  margin:auto;
+  float:left;
+  z-index:999;
+  background:none;
+  
+}
+
+html.range_1 #ytOrderedText {
+  position:relative;
+  float:left;
+  width:auto;
+  padding:1px 1px;
+  font-weight:bold;
+  color:#666;
+}
+  
+html.range_1 #ytOrderedDropDown {
+  position:relative;
+  float:right;
+  width:95px;
+  text-align:center;
+}
+
+
+.ytOrderedDropDown {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:13px;
+	font-weight:bold;
+	padding:0px 20px 0px 0px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	overflow:hidden;
+	
+}
+.ytOrderedDropDown:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.ytOrderedDropDown:active {
+	position:relative;
+	top:1px;
+}
+
+.ytOrderedDropDown span {
+  font-weight:bold;
+  font-size:20px;
+  line-height:0em;
+  padding:0px;
+  margin:0px;
+  position:absolute;
+  background:none;
+  float:right;
+  bottom:11px;
+  right:10px;
+  
+}
+
+
+
+
+html.range_1 #ytSearchResults {
+  background-color:#fff;
+  width:100%;
+  height:380px;
+  position:relative;
+  float:left;
+  clear:left;
+  margin:0px;
+  padding:0px;
+  border-left:#aaa solid 0px;
+  border-right:#aaa solid 0px;
+}
+
+
+html.range_1 #ytSearchBox {
+  width:160px;
+  height:28px;
+  position:relative;
+  float:left;
+  margin:0px;
+  border:0px;
+  padding:0px 5px 0px 5px;
+  font-size:15px;
+  outline:none;
+    border-left:#999 solid 1px;
+  border-top:#999 solid 1px;
+  border-right:#999 solid 0px;
+  border-bottom:#999 solid 1px;  
+  
+  
+  background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+/* all */
+::-webkit-input-placeholder { color:#666; }
+::-moz-placeholder { color:#666; } /* firefox 19+ */
+:-ms-input-placeholder { color:#666; } /* ie */
+input:-moz-placeholder { color:#666;}
+
+/* individual: webkit */
+#ytSearchBox::-webkit-input-placeholder { 
+  color:#db2a28;
+  width:150px;
+  height:20px;
+  text-transform:uppercase;
+  font-family:monospace;
+  font-size:12px;
+  text-align:center;
+  opacity:0.75;
+  background-color:none;
+  margin:0px;
+  border:0px;
+  padding:3px 0px 0px 0px; 
+
+  
+}
+/* individual: mozilla */
+#ytSearchBox::-moz-placeholder {
+  color:#db2a28;
+  width:150px;
+  height:20px;
+  text-transform:uppercase;
+  font-family:monospace;
+  font-size:12px;
+  text-align:center;
+  opacity:0.75;
+  background-color:none;
+  margin:0px;
+  border:0px;
+  padding:3px 0px 0px 0px; 
+
+}
+
+
+
+
+
+html.range_1 #ytSearchBtn {
+  background-color:#ddd;
+  background-image:url("../images/yt_icon_30.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:25px;
+  border-left:#bbb solid 1px;
+  border-right:solid 1px #999;
+  border-top:solid 1px #999;
+  border-bottom:solid 1px #999;
+  width:43px;
+  height:28px;
+  padding:0px;
+  margin:0px;
+  display:;
+  position:relative;
+  float:left;
+  cursor:pointer;
+  
+}
+
+
+html.range_1 #ytSearchBtn:hover {
+  background-image:url("../images/yt_icon_30_dark.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  
+}
+
+
+html.range_1 #ytPageResults {
+  width:100%;
+  height:40px;
+  background:none;
+  position:absolute;
+  bottom:3px;
+  margin:auto;
+  float:left;
+  font-size:12px;
+  text-align:center;
+}
+
+
+
+.btn {
+  background: #ebebeb;
+  background-image: -webkit-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -moz-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -ms-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -o-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: linear-gradient(to bottom, #ebebeb, #c2c2c2);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 2px 2px 6px #6b6b6b;
+  -webkit-box-shadow: 2px 2px 5px #666666;
+  -moz-box-shadow: 2px 2px 5px #666666;
+  box-shadow: 2px 2px 5px #666666;
+  color: #666666;
+  font-size: 25px;
+  padding: 0px 4px 4px 0px;
+  border: solid #bfbfbf 1px;
+  text-decoration: none;
+  outline:none;
+  cursor:pointer;
+}
+
+.btn:hover {
+  background: #f7f7f7;
+  background-image: -webkit-linear-gradient(top, #f7f7f7, #dbdbdb);
+  background-image: -moz-linear-gradient(top, #f7f7f7, #dbdbdb);
+  background-image: -ms-linear-gradient(top, #f7f7f7, #dbdbdb);
+  background-image: -o-linear-gradient(top, #f7f7f7, #dbdbdb);
+  background-image: linear-gradient(to bottom, #f7f7f7, #dbdbdb);
+  text-decoration: none;
+}
+
+html.range_1 #ytSearchPreviousPageBtn:before{
+    content:"\29CF";
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+
+
+
+html.range_1 #ytSearchPreviousPageBtn{
+  position:absolute;
+  left:2px;
+  bottom:5px;
+  z-index:999;
+  width:45px;
+  height:35px;
+}
+
+html.range_1 #ytSearchNextPageBtn:before{
+    content:"\29D0";
+    text-align:center;
+    padding:25px 12px;
+    margin:0px;
+    border:0px;
+}
+
+html.range_1 #ytSearchNextPageBtn{
+  position:absolute;
+  right:4px;
+  bottom:5px;
+  z-index:999;
+  width:45px;
+  height:35px;
+}
+
+
+
+
+html.range_1 #ytSearchShowingText{
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  font-size:15px;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  background:none;
+}
+
+html.range_1 #ytSearchResultsText{
+  position:absolute;
+  top:20px;
+  left:0px;
+  width:100%;
+  font-size:15px;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  background:none;
+}
+
+
+html.range_1 #ytSearchCurrentResults{
+  font-weight:bold;
+}
+
+html.range_1 #ytSearchTotalResults{
+  font-weight:bold;
+}
+
+
+
+
+html.range_1 #ytSearchResults .ytplayer{
+
+}
+
+
+html.range_1 #ytSearchList{
+  width:100%;
+  height:auto;
+  position:relative;
+  top:50px;
+  margin:auto;
+  float:left;
+  background-color:none;
+  list-style:none;
+  display:inline-block;
+}
+
+html.range_1 #ytSearchList li{
+  width:212px;
+  height:auto;
+  position:relative;
+  float:left;
+  clear:both;
+  margin-bottom:24px;
+  margin-top:0px;
+  margin-left:4px;
+  margin-right:0px;
+  padding:0px;
+  background-color:none;
+}
+
+html.range_1 .ytSearchTitle{
+    position:absolute;
+    top:-18px;
+    left:0px;
+    width:212px;
+    background:none;
+    padding:0px 0px 0px 0px;
+    font-weight:bold;
+    font-size:13px;
+    text-decoration:none;
+    text-align:left;
+    cursor:pointer;
+}
+
+
+html.range_1 .ytSearchThumb{
+  width:70px;
+  height:52px;
+  position:relative;
+  float:left;
+  cursor:pointer;
+}
+
+html.range_1 .ytSearchPlayBox{
+    background-image:url("../images/yt_play_white_48px.png");
+    background-repeat:no-repeat;
+    background-position:center 21px;
+    background-size:35px;
+    width:70px;
+    height:52px;
+    position:relative;
+    float:left;
+    cursor:pointer;
+    background-color:#000;
+}
+
+html.range_1 .ytSearchPlayBox:hover{
+    background-image:url("../images/yt_play_red_48px.png");
+  }
+
+
+html.range_1 .ytSearchPlayBoxText{
+    position:relative;
+    margin:auto;
+    width:68px;
+    padding:2px 2px 2px 0px;
+    background-color:none;
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    font-size:12px;
+    text-transform:uppercase;
+    color:#e52d27;  
+}
+
+ 
+
+
+html.range_1 .ytSearchAddBox{
+    width:64px;
+    height:44px;
+    position:relative;
+    float:left;
+    cursor:pointer;
+    border:4px solid #333;
+    
+    background: #ebebeb;
+  background-image: -webkit-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -moz-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -ms-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: -o-linear-gradient(top, #ebebeb, #c2c2c2);
+  background-image: linear-gradient(to bottom, #ebebeb, #c2c2c2);
+    
+}
+
+html.range_1 .ytSearchAddBoxText{
+    position:absolute;
+    top:10px;
+    left:5px;
+    margin:0px;
+    width:auto;
+    height:auto;
+    padding:0px;
+    background-color:none;
+    display:none;
+    text-align:center;
+    font-weight:bold;
+    font-size:12px;
+    line-height:0em;
+    color:#333;  
+    text-transform:uppercase;
+    z-index:15;
+    text-shadow: 2px 2px 6px #6b6b6b;
+
+}
+
+html.range_1 .ytSearchAddBoxCheck{
+    position:absolute;
+    left:10px;
+    top:23px;
+    margin:0px;
+    width:auto;
+    height:auto;
+    padding:0px;
+    background-color:none;
+    display:none;
+    text-align:center;
+    font-weight:none;
+    font-size:80px;
+    line-height:0em;
+    border-color:#00C11A;
+    color:#00C11A;  
+    text-transform:uppercase;
+    z-index:14;
+    text-shadow: 2px 2px 6px #6b6b6b;
+
+}
+
+
+html.range_1 .ytSearchAddBoxPlus{
+    position:absolute;
+    float:left;
+    left:29px;
+    top:24px;
+    padding:0px 0px 0px 0px;
+    margin:auto;
+    display:;
+    background-color:none;
+    width:auto;
+    height:auto;
+    line-height:0em;
+    margin:0px;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    color:#00C11A;  
+    z-index:11;
+    text-shadow: 2px 2px 6px #6b6b6b;
+
+
+}
+
+html.range_1 .ytSearchAddBoxNote{
+    position:absolute;
+    float:left;
+    left:5px;
+    top:24px;
+    padding:0px 0px 0px 0px;
+    margin:auto;
+    display:;
+    background-color:none;
+    width:auto;
+    height:auto;
+    line-height:0em;
+    margin:0px;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+    color:#333;  
+    z-index:10;
+    text-shadow: 2px 2px 6px #6b6b6b;
+
+}
+
+
+ html.range_1 .ytSearchAddBoxPlus:hover{
+  color:#00FF22;
+  
+}
+
+
+/***START MIXTAPE AREA***/
+
+
+
+html.range_1 #mixtapeTitle{
+  width:545px;
+  height:40px;
+  background-color:none;
+  position:relative;
+  margin:auto;
+  top:19px;
+  padding-left:45px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  cursor:pointer;
+}
+
+html.range_1 #mixtapeTitleWrap{
+  position:relative;
+  height:40px;
+  margin:0px auto;
+  padding:0px;
+  border:0px;
+  display:block;
+  background:none;
+  cursor:pointer;
+}
+
+
+html.range_1 #mixtapeTitle span{
+  font-family:marker;
+  font-size:30px;
+  position:relative;
+  padding:0px;
+  margin:0px;
+  float:left;
+  text-align:center;
+  background-color:none;
+  line-height:1em;
+  width:auto;
+  height:40px;
+  display:inline-block;
+  white-space:nowrap;
+  color:#FFDD00;
+  cursor:pointer;
+}
+
+
+
+html.range_1 #mixtapeContentContain{
+  width:610px;
+  height:210px;
+  background-color:none;
+  position:relative;
+  margin:auto;
+  top:30px;
+  
+}
+
+/***START MIXTAPE YOUTUBE PlAYLIST AREA***/
+
+
+html.range_1 #mixtapeContent{
+  width:100%;
+  height:100%;
+  background-color:none;
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:;
+}
+
+html.range_1 #mixtapePlaylistContain{
+  width:275px;
+  height:100%;
+  background-color:#666;
+  position:relative;
+  float:left;
+  display:;
+}
+
+html.range_1 #mixtapePlaylist{
+  width:258px;
+  height:140px;
+  margin:0px 10px 5px 5px;
+  padding:0px;
+  background:#aaa;
+  display:inline-block;
+  overflow:auto;
+  border-bottom:1px solid #999;
+  border-left:1px solid #999;
+  border-right:1px solid #999;
+  
+}
+
+html.range_1 #mixtapePlaylist li{
+  width:258px;
+  position:relative;
+  margin:0px auto;
+  border-top:1px solid #999;
+  padding:4px 0px;
+  float:left;
+  clear:both;
+  cursor:pointer;
+  overflow:;
+  
+}
+
+html.range_1 #mixtapePlaylistSongOuter{
+  background:none;
+  display:block;
+  white-space:nowrap;
+  width:248px;
+  overflow:hidden;
+  margin-left:5px;
+
+}
+
+
+
+html.range_1 #mixtapePlaylistSongInner{
+  background:none;
+  white-space:nowrap;
+  position:relative;
+}
+
+
+html.range_1 #mixtapePlaylistTitleUL{
+  width:260px;
+  height:auto;
+  position:relative;
+  float:left;
+  margin:5px 0px 0px 5px;
+  padding:0px;
+  background:none;
+  display:inline;
+  overflow:auto;
+  border-bottom:3px solid #666;
+  
+}
+
+html.range_1 #mixtapePlaylistTitleUL li{
+  width:258px;
+  position:relative;
+  margin:0px auto;
+  padding:0px 0px 0px 0px;
+  float:left;
+  clear:both;
+  cursor:pointer;
+  border:1px solid #999;
+  white-space:nowrap;
+  overflow:hidden;
+
+}
+
+html.range_1 #playlistTitlePlaylist{
+  background:none;
+  padding-left:10px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+html.range_1 #playlistTitleSearch{
+  font-size:13px;
+  font-weight:none;
+  color:#FFFF00;
+  position:relative;
+  bottom:1px;
+}
+
+
+.mixtapePlaylistTitle{
+background: rgb(178,178,178); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(178,178,178,1) 0%, rgba(186,186,186,1) 50%, rgba(158,158,158,1) 51%, rgba(204,204,204,1) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(178,178,178,1)), color-stop(50%,rgba(186,186,186,1)), color-stop(51%,rgba(158,158,158,1)), color-stop(99%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(186,186,186,1) 50%,rgba(158,158,158,1) 51%,rgba(204,204,204,1) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(186,186,186,1) 50%,rgba(158,158,158,1) 51%,rgba(204,204,204,1) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(186,186,186,1) 50%,rgba(158,158,158,1) 51%,rgba(204,204,204,1) 99%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(178,178,178,1) 0%,rgba(186,186,186,1) 50%,rgba(158,158,158,1) 51%,rgba(204,204,204,1) 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+
+.mixtapePlaylistTitle:hover{
+background: rgb(178,178,178); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(178,178,178,1) 0%, rgba(163,163,163,1) 50%, rgba(135,135,135,1) 51%, rgba(168,168,168,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(178,178,178,1)), color-stop(50%,rgba(163,163,163,1)), color-stop(51%,rgba(135,135,135,1)), color-stop(100%,rgba(168,168,168,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(163,163,163,1) 50%,rgba(135,135,135,1) 51%,rgba(168,168,168,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(163,163,163,1) 50%,rgba(135,135,135,1) 51%,rgba(168,168,168,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(178,178,178,1) 0%,rgba(163,163,163,1) 50%,rgba(135,135,135,1) 51%,rgba(168,168,168,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(178,178,178,1) 0%,rgba(163,163,163,1) 50%,rgba(135,135,135,1) 51%,rgba(168,168,168,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#a8a8a8',GradientType=0 ); /* IE6-9 */
+}
+
+.mixtapePlaylistTitle:active{
+background: rgb(255,119,95); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,119,95,1) 0%, rgba(255,145,131,1) 50%, rgba(255,77,57,1) 51%, rgba(255,84,61,1) 71%, rgba(255,83,67,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,119,95,1)), color-stop(50%,rgba(255,145,131,1)), color-stop(51%,rgba(255,77,57,1)), color-stop(71%,rgba(255,84,61,1)), color-stop(100%,rgba(255,83,67,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff775f', endColorstr='#ff5343',GradientType=0 ); /* IE6-9 */
+}
+
+
+.mixtapePlaylistLi{
+  
+background: rgb(242,242,242); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(229,229,229,1) 50%, rgba(214,214,214,1) 51%, rgba(234,234,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(50%,rgba(229,229,229,1)), color-stop(51%,rgba(214,214,214,1)), color-stop(100%,rgba(234,234,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(229,229,229,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(229,229,229,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%,rgba(229,229,229,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(242,242,242,1) 0%,rgba(229,229,229,1) 50%,rgba(214,214,214,1) 51%,rgba(234,234,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+}
+
+.mixtapePlaylistLi:hover{
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+  
+}
+
+.mixtapePlaylistLi:active{
+background: rgb(255,119,95); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,119,95,1) 0%, rgba(255,145,131,1) 50%, rgba(255,77,57,1) 51%, rgba(255,84,61,1) 71%, rgba(255,83,67,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,119,95,1)), color-stop(50%,rgba(255,145,131,1)), color-stop(51%,rgba(255,77,57,1)), color-stop(71%,rgba(255,84,61,1)), color-stop(100%,rgba(255,83,67,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,119,95,1) 0%,rgba(255,145,131,1) 50%,rgba(255,77,57,1) 51%,rgba(255,84,61,1) 71%,rgba(255,83,67,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff775f', endColorstr='#ff5343',GradientType=0 ); /* IE6-9 */
+}
+
+.playlistSelected{
+background: rgb(255,75,43); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,75,43,1) 0%, rgba(255,102,79,1) 50%, rgba(255,32,3,1) 51%, rgba(255,38,9,1) 71%, rgba(255,35,15,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,75,43,1)), color-stop(50%,rgba(255,102,79,1)), color-stop(51%,rgba(255,32,3,1)), color-stop(71%,rgba(255,38,9,1)), color-stop(100%,rgba(255,35,15,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,75,43,1) 0%,rgba(255,102,79,1) 50%,rgba(255,32,3,1) 51%,rgba(255,38,9,1) 71%,rgba(255,35,15,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,75,43,1) 0%,rgba(255,102,79,1) 50%,rgba(255,32,3,1) 51%,rgba(255,38,9,1) 71%,rgba(255,35,15,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,75,43,1) 0%,rgba(255,102,79,1) 50%,rgba(255,32,3,1) 51%,rgba(255,38,9,1) 71%,rgba(255,35,15,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,75,43,1) 0%,rgba(255,102,79,1) 50%,rgba(255,32,3,1) 51%,rgba(255,38,9,1) 71%,rgba(255,35,15,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4b2b', endColorstr='#ff230f',GradientType=0 ); /* IE6-9 */
+}
+
+html.range_1 #mixtapePlaylistInfoContain{
+  width:335px;
+  height:100%;
+  position:relative;
+  float:left;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  background:#666;
+}
+
+
+
+html.range_1 #mixtapePlaylistInfoTitle {
+  width:313px;
+  height:28px;
+  position:relative;
+  display:block;
+  margin:5px auto;
+  border:0px;
+  padding:0px 5px 0px 5px;
+  font-size:15px;
+  outline:none;
+  border-left:#999 solid 1px;
+  border-top:#999 solid 1px;
+  border-right:#999 solid 1px;
+  border-bottom:#999 solid 1px;
+  
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+html.range_1 #mixtapePlaylistInfoDescription {
+  width:313px;
+  height:117px;
+  position:relative;
+  display:block;
+  margin:5px auto;
+  border:0px;
+  padding:5px;
+  font-size:15px;
+  outline:none;
+  resize:none;
+  overflow:auto;
+  
+  border-left:#999 solid 1px;
+  border-top:#999 solid 1px;
+  border-right:#999 solid 1px;
+  border-bottom:#999 solid 1px;
+  
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+html.range_1 #mixtapePlaylistInfoGenre {
+  width:313px;
+  height:28px;
+  position:relative;
+  display:block;
+  margin:5px auto;
+  border:0px;
+  padding:0px 5px 0px 5px;
+  font-size:15px;
+  outline:none;
+  border-left:#999 solid 1px;
+  border-top:#999 solid 1px;
+  border-right:#999 solid 1px;
+  border-bottom:#999 solid 1px;
+  
+  background: rgb(255,255,255); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+html.range_1 #mixtapeYtInfoArtist::-webkit-input-placeholder, 
+html.range_1 #mixtapeYtInfoSong::-webkit-input-placeholder, 
+html.range_1 #mixtapeYtInfoDesc::-webkit-input-placeholder, 
+html.range_1 #mixtapePlaylistInfoTitle::-webkit-input-placeholder, 
+html.range_1 #mixtapePlaylistInfoDescription::-webkit-input-placeholder, 
+html.range_1 #mixtapePlaylistInfoGenre::-webkit-input-placeholder{ 
+  color: #FF0000;
+  text-transform: none;
+}
+
+html.range_1 #mixtapeYtInfoArtist::-moz-placeholder,
+html.range_1 #mixtapeYtInfoSong::-moz-placeholder,
+html.range_1 #mixtapeYtInfoDesc::-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoTitle::-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoDescription::-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoGenre::-webkit-input-placeholder{ 
+  color: #FF0000;
+  text-transform: none;
+}
+html.range_1 #mixtapeYtInfoArtist:-moz-placeholder,
+html.range_1 #mixtapeYtInfoSong:-moz-placeholder,
+html.range_1 #mixtapeYtInfoDesc:-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoTitle:-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoDescription:-moz-placeholder,
+html.range_1 #mixtapePlaylistInfoGenre::-webkit-input-placeholder{  
+  color: #FF0000;
+  text-transform: none;
+}
+html.range_1 #mixtapeYtInfoArtist:-ms-input-placeholder,
+html.range_1 #mixtapeYtInfoSong:-ms-input-placeholder,
+html.range_1 #mixtapeYtInfoDesc:-ms-input-placeholder,
+html.range_1 #mixtapePlaylistInfoTitle:-ms-input-placeholder,
+html.range_1 #mixtapePlaylistInfoDescription:-ms-input-placeholder,
+html.range_1 #mixtapePlaylistInfoGenre::-webkit-input-placeholder{  
+  color: #FF0000;
+  text-transform: none;
+}
+
+
+html.range_1 #mixtapeYtContain{
+  width:335px;
+  height:100%;
+  position:relative;
+  float:left;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  display:none;
+  background:#ddd;
+}
+
+html.range_1 #mixtapeYtHeaderTabs{
+  position:relative;
+  float:left;
+  width:100%;
+  height:25px;
+  background:#666;
+  cursor:pointer;
+  overflow:hidden;
+  
+}
+
+html.range_1 #mixtapeYtInfoTab{
+  width:50%;
+  height:100%;
+  position:relative;
+  float:left;
+  background:#666;
+  left:1px;
+}
+
+
+html.range_1 #mixtapeYtInfoTab span{
+  width:98%;
+  height:auto;
+  background:#ddd;
+  padding:2px 0px;
+  margin-top:3px;
+  display:block;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  text-transform:uppercase;
+  position:relative;
+  float:right;
+    border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 1px solid #858585;
+  
+}
+
+html.range_1 #mixtapeYtInfo{
+  position:relative;
+  float:left;
+  width:325px;
+  height:175px;
+  background:#ddd;
+  display:none;
+  overflow:auto;
+  margin:5px;
+}
+
+
+html.range_1 #mixtapeYtTitle{
+  width:311px;
+  height:auto;
+  position:relative;
+  padding:5px;
+  font-weight:bold;
+  font-size:14px;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+  overflow-y:auto;
+  margin:0px;
+  border:1px solid #bbb;
+  line-height:1.3em;
+  white-space:pre-wrap;
+  word-wrap: break-word;
+   word-break: keep-all;
+  color:#000;
+
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%,
+rgba(114,114,114,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom,
+color-stop(0%,rgba(234,234,234,1)),
+color-stop(100%,rgba(114,114,114,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient(
+startColorstr='#eaeaea', endColorstr='#727272',GradientType=0 ); /*
+IE6-9 */
+
+
+}
+
+
+html.range_1 #mixtapeYtDescription{
+  width:311px;
+  height:auto;
+  position:relative;
+  float:left;
+  padding:0px;
+  font-weight:bold;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+  margin:0px;
+  border-top:5px solid #ddd;
+  border-left:5px solid #ddd;
+  border-right:5px solid #ddd;
+  line-height:1.4em;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space:pre-wrap;
+  font-size:13px;
+  color:#555;
+  background-color:#ddd;
+
+}
+
+
+
+	
+
+html.range_1 #mixtapeYtVideoTab{
+  width:50%;
+  height:100%;
+  position:relative;
+  float:left;
+  right:1px;
+
+}
+
+
+html.range_1 #mixtapeYtVideoTab span{
+  width:98%;
+  height:auto;
+  background-color:#bbb;
+  padding:2px 0px;
+  display:block;
+  text-align:center;
+  font-size:14px;
+  margin-top:3px;
+  font-weight:bold;
+  text-transform:uppercase;
+  border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 1px solid #858585;
+  
+}
+
+
+
+
+html.range_1 #mixtapeYtViewContain{
+  position:relative;
+  float:left;
+  width:100%;
+  height:185px;
+  background-color:#bbb;
+}
+
+
+html.range_1 #mixtapeYtView{
+  width:325px;
+  height:175px;
+  position:relative;
+  float:left;
+  left:5px;
+  top:5px;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  background:none;
+
+}
+
+
+/***START MIXTAPE YOUTUBE PREVIEW AREA***/
+
+html.range_1 #mixtapeYtPreviewContain{
+  width:100%;
+  height:100%;
+  background-color:#eeeeee;
+  position:absolute;
+  top:0px;
+  left:0px;
+  display:none;
+}
+
+html.range_1 #mixtapeYtPreviewInfoWrap{
+  width:275px;
+  height:200px;
+  position:relative;
+  float:left;
+  padding:5px;
+}
+
+html.range_1 #mixtapeYtPreviewInfoContain{
+  width:275px;
+  height:167px;
+  background-color:#eeeeee;
+  position:relative;
+  float:left;
+}
+
+
+html.range_1 #mixtapeYtPreviewTitle{
+  width:263px;
+  height:auto;
+  position:relative;
+  padding:5px;
+  font-weight:bold;
+  font-size:14px;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+  overflow-y:auto;
+  margin:0px;
+  border:1px solid #bbb;
+  line-height:1.3em;
+  white-space:pre-wrap;
+  word-wrap: break-word;
+   word-break: keep-all;
+  color:#000;
+
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%,
+rgba(114,114,114,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom,
+color-stop(0%,rgba(234,234,234,1)),
+color-stop(100%,rgba(114,114,114,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(234,234,234,1)
+0%,rgba(114,114,114,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient(
+startColorstr='#eaeaea', endColorstr='#727272',GradientType=0 ); /*
+IE6-9 */
+
+
+}
+
+
+html.range_1 #mixtapeYtPreviewDescription{
+  width:265px;
+  height:auto;
+  position:relative;
+  float:left;
+  padding:0px;
+  font-weight:bold;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+  margin:0px;
+  border-top:5px solid #eeeeee;
+  border-left:5px solid #eeeeee;
+  border-right:5px solid #eeeeee;
+  line-height:1.4em;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space:pre-wrap;
+  font-size:13px;
+  color:#555;
+  background-color:#eeeeee;
+
+}
+
+
+
+html.range_1 #mixtapeYtPreviewControls{
+  width:275px;
+  height:auto;
+  background-color:#eeeeee;
+  position:relative;
+  float:left;
+  margin:auto;
+  padding:5px 0px 0px 0px;
+  border:0px;
+
+}
+html.range_1 #mixtapeYtPreviewCancel {
+  width:135px;
+  height:28px;
+  position:relative;
+  float:left;
+  margin-right:5px;
+  text-transform:uppercase;
+  text-align:center;
+  color:rgb(220,0,0);
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;  
+}
+
+html.range_1 #mixtapeYtPreviewCancel:hover {
+  color:rgb(255,0,0);
+}
+
+html.range_1 #mixtapeYtPreviewCancel:active {
+  color:#333333;
+}
+
+html.range_1 #mixtapeYtPreviewAdd {
+  width:135px;
+  height:28px;
+  position:relative;
+  float:left;
+  text-transform:uppercase;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;  
+  font-weight:bold;
+  color:#00C11A;  
+}
+
+html.range_1 #mixtapeYtPreviewAdd:hover {
+  color:#19DA34;
+}
+
+html.range_1 #mixtapeYtPreviewAdd:active {
+  color:#333333;
+}
+
+html.range_1 #mixtapeYtPreviewCancel:before {
+	content: "\2717";
+}
+
+html.range_1 #mixtapeYtPreviewAdd:before {
+
+	content: "\002B";
+}
+
+
+
+
+
+html.range_1 .mixtapeYtPreview{
+  width:315px;
+  height:200px;
+  position:relative;
+  float:left;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  top:5px;
+  left:5px;
+}
+
+
+html.range_1 #mixtapeFooter{
+  width:430px;
+  height:96px;
+  background-color:none;
+  position:relative;
+  margin:auto;
+  top:41px;
+  left:4px;
+  display:block;
+  z-index:9999;
+}
+
+
+html.range_1 #loginBlock{
+  width:215px;
+  height:96px;
+  position:absolute;
+  background:none;
+  z-index:999;
+  cursor:pointer;
+  
+}
+
+html.range_1 #incBlock{
+  width:215px;
+  height:96px;
+  position:absolute;
+  background:none;
+  z-index:999;
+  right:0px;
+  cursor:pointer;
+  opacity:0.3;
+}
+
+
+html.range_1 #mixtapeSave{
+  width:215px;
+  height:96px;
+  position:relative;
+  float:left;
+  display:block;
+  background:none;
+  overflow:hidden;
+}
+
+html.range_1 #mixtapeSaveTextWrap{
+  position:relative;
+  margin:auto;
+  width:120px;
+  background:pink;
+  
+}
+
+
+html.range_1 #mixtapeSaveTextSave{
+  font-family:;
+  font-size:18px;
+  font-weight:bold;
+  color:#00C11A;
+  position:relative;
+  background:none;
+  float:left;
+  margin:auto;
+  display:block;
+}
+
+
+html.range_1 #mixtapeSaveTextMixtape{
+  font-family:;
+  font-size:18px;
+  font-weight:bold;
+  left:15px;
+  color:#00C11A;
+  position:relative;
+
+  background:none;
+  float:left;
+  margin:auto;
+  display:block;
+}
+
+
+
+html.range_1 #boomBox{
+  background-image:url("../images/boom_box_small.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  width:180px;
+  height:75px;
+  display:block;
+  cursor:pointer;
+  position:relative;
+  margin:10px auto 5px auto;
+}
+
+html.range_1 #cassette{
+  background-image:url("../images/cassette_small.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  width:42px;
+  height:22px;
+  display:block;
+  position:absolute;
+  left:30px;
+  bottom:36px;
+}
+
+html.range_1 #mixtapeSaveText{
+  font-family:;
+  font-size:18px;
+  font-weight:bold;
+  color:#00C11A;
+  position:absolute;
+  background:none;
+  top:25px;
+  left:109px;
+}
+
+
+html.range_1 .addthis_sharing_toolbox{
+  position:relative;
+  left:20px;
+}
+
+html.range_1 #atstbx{
+  width:215px !important;
+  padding:0px !important;
+  margin:0px !important;
+  border:0px !important;
+  background-color:none;
+  position:relative !important;
+  float:right;
+  right:15px;
+  top:10px;
+}
+
+
+html.range_1 #atstbx a{
+  padding:0px !important;
+  margin:0px 10px 10px 0px !important;
+  border:0px !important;
+}
+
+
+
+html.range_1 #footer{
+  border-top:#666 solid 1px;
+  border-bottom:#222 solid 1px;
+  height:100px;
+  width:100%;
+  padding:0px;
+  position:relative;
+  float:left;
+  margin:auto;
+  z-index:999;
+  display:block;
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+/************/
+/***BUTTONS**/
+/************/
+
+html.range_1 .playlistBtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9) );
+	background:-moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+	background-color:#f9f9f9;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-size:12px;
+	font-weight:bold;
+	font-style:normal;
+	height:20px;
+	line-height:18px;
+	width:auto;
+	padding-left:7px;
+	padding-right:7px;
+	margin-right:5px;
+	cursor:pointer;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+
+ html.range_1 #playlistBtns{
+    position:absolute;
+    bottom:5px;
+    left:6px;
+    
+  }
+  
+html.range_1 #playlistMoveUp:after{
+    color:#00C11A;
+    content:"\2191";
+  }
+html.range_1 #playlistMoveDown:after{
+    color:#00C11A;
+    content:"\2193";
+  }
+  
+html.range_1 #playlistDelete:after{
+    content:"\2717";
+    position:relative;
+    top:2px;
+    right:4px;
+    color:#FF0000;
+  }
+  
+  
+html.range_1 .playlistBtn:after {
+
+    text-align:center;
+    position:relative;
+    font-size:16px;
+    left:3px;
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+
+
+html.range_1 .playlistBtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9) );
+	background:-moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+	background-color:#e9e9e9;
+}.playlistBtn:active {
+	position:relative;
+	top:1px;
+}
+
+
+html.range_1 .button {        
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    text-align:center;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+    width:200px;
+    cursor:pointer;
+}
+
+html.range_1 .button:hover {
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+html.range_1 .button:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+html.range_1 .button:focus {
+    outline: 0;
+    /*background: #fafafa;*/
+} 
+
+
+html.range_1 .button:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;        
+}
+
+/************/
+/****FONTS***/
+/************/
+
+@font-face {
+    font-family: 'marker';
+    src: url('marker-webfont.eot');
+    src: url('marker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('marker-webfont.woff2') format('woff2'),
+         url('marker-webfont.woff') format('woff'),
+         url('marker-webfont.ttf') format('truetype'),
+         url('marker-webfont.svg#vtks_animal_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}@font-face {
+    font-family: 'headerText';
+    src: url('kgthisisnotgoodbye-webfont.eot');
+    src: url('kgthisisnotgoodbye-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kgthisisnotgoodbye-webfont.woff2') format('woff2'),
+         url('kgthisisnotgoodbye-webfont.woff') format('woff'),
+         url('kgthisisnotgoodbye-webfont.ttf') format('truetype'),
+         url('kgthisisnotgoodbye-webfont.svg#kg_this_is_not_goodbyeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
