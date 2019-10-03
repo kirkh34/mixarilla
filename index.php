@@ -174,7 +174,7 @@ $playlistID =  uniqid();
   var nextPageToken;
   var resultsPerPage;
   var totalResults;
-  var apiKey = "AIzaSyDwkXcW35ZejHJzlkj88Z3eRJ4XioaNk_0";
+  var apiKey = "xxx";
   
   var nextClicked = false;
   var previousClicked = false;

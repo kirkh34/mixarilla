@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","kirkage","Tard99es5", "mixarilla") or die(mysqli_error());
+$con = mysqli_connect("localhost","xxx","xxx", "xxx") or die(mysqli_error());
 
 
 $userObject = $_POST['userObject'];
